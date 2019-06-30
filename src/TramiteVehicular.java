@@ -1,4 +1,3 @@
-
 public class TramiteVehicular {
 
     float nrotramite;
@@ -20,7 +19,7 @@ public class TramiteVehicular {
         this.notaPractico = notaPractico;
     }
 
-    //getter
+    //getter y setter
     public float getNrotramite() {
         return nrotramite;
     }
@@ -49,7 +48,6 @@ public class TramiteVehicular {
         return tipoVehiculo;
     }
 
-    //setter
     public void setTipoVehiculo(String tipoVehiculo) {
         this.tipoVehiculo = tipoVehiculo;
     }
